@@ -1,0 +1,24 @@
+.user{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    justify-items: start;
+    align-items: center;
+    padding-left: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #707070;
+    width: 100%;
+
+}
+
+.user img{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+.user h3{
+    font-size: 16px;
+    font-weight: normal;
+    color: #000;
+}
